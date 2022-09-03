@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+body{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Unica One', cursive;
+}
+.clock{
+    background: rgb(35, 35, 35);
+    width: 300px;
+    height: 150px;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: white;
+    border: 20px solid rgb(19, 19, 19);
+    border-radius: 15px;
+    position: relative;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    background-color: rgb(19, 19, 19);
+    bottom: -40px;
+    left: 0px;
+    border-radius: 5px;
+}
+.right{
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    background-color: rgb(19, 19, 19);
+    bottom: -40px;
+    right: 0px;
+    border-radius: 5px;
+}
